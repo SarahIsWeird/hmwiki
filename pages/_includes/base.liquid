@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/public/style.css">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <h1><a class="default-color" href="/">{hackmud} wiki</a></h1>
+            <div class="links">
+                <a href="/locks">Locks</a>
+                <a href="/npcs">NPCs</a>
+                <a href="/ports">Ports</a>
+                <a href="/corps">Corps</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="spacer"></div>
+            <main>
+                {{ content }}
+            </main>
+            <div class="spacer"></div>
+        </div>
+        <div class="footer">
+            <span>
+                Made with <span class="hm-color--e"><3</span> and without AI
+            </span>
+            <span>
+                Neither affiliated with nor endorsed by ComCode.
+            </span>
+        </div>
+    </body>
+</html>

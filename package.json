@@ -1,0 +1,19 @@
+{
+    "name": "hmwiki",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "serve": "eleventy --serve",
+        "gen-colors": "node utils/colors.js"
+    },
+    "private": true,
+    "dependencies": {
+        "@11ty/eleventy": "^3.1.6",
+        "liquidjs": "^10.29.0",
+        "markdown-it-anchor": "^10.0.0",
+        "markdown-it-color": "^2.1.1",
+        "markdown-it-container": "^4.0.0",
+        "markdown-it-footnote": "^4.0.0"
+    }
+}
