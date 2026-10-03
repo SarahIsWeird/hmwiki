@@ -1,3 +1,5 @@
+// @ts-ignore
+import { HtmlBasePlugin } from '@11ty/eleventy';
 import markdownItAnchor from 'markdown-it-anchor';
 import { colorPlugin as markdownItColor } from 'markdown-it-color';
 import markdownItFootnote from 'markdown-it-footnote';
@@ -12,6 +14,7 @@ hlJs.registerLanguage('javascript', hlJsJavaScript);
 hlJs.registerLanguage('typescript', hlJsTypeScript);
 
 export default function (eleventyConfig: any) {
+    eleventyConfig.addPlugin(HtmlBasePlugin);
     eleventyConfig.setInputDirectory('pages');
     eleventyConfig.addPassthroughCopy('public');
     eleventyConfig.amendLibrary('md', (mdLib: any) =>
