@@ -80,7 +80,7 @@ only repeats the word "nevermore". Seeing this as the bird mocking him for his s
 
 <hr>
 
-## link_light_rail_train_4
+## link_light_rail_train_4 (1)
 
 ### Context
 
@@ -105,6 +105,28 @@ link_light_rail_train_4 is a train sharing a poem about their departed friend, p
 > {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)that was for my friend, 8{b-dark}(:::)
 > 
 > {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)i hope theres good maintenance in the afterworld{b-dark}(:::)
+
+## link_light_rail_train_4 (2)
+
+### Full poem
+
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)carefree{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)listless{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)always with purpose{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)always on track{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)oncoming train{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)nothing{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)more{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)loud noise{b-dark}(:::)
+> 
+> {v}(CAFE) {k}(link_light_rail_train_4) {b-dark}(:::)thanks{b-dark}(:::)
 
 <hr>
 
@@ -137,7 +159,7 @@ cyclocross is a form of bike racing on many different types of grounds throughou
 
 <hr>
 
-## link_light_rail_train_13
+## link_light_rail_train_13 (1)
 
 ### Full poem
 
@@ -164,3 +186,27 @@ cyclocross is a form of bike racing on many different types of grounds throughou
 > {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)...{b-dark}(:::)
 >
 > {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)I didn't write it for your applause.{b-dark}(:::)
+
+## link_light_rail_train_13 (2)
+
+### Full poem
+
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)we the rail-stricken{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)we the empty-nested{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)we who trudge on{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)day after day{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)perfectly maintained{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)perfectly useless{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)we are the heirs of this earth{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)and its m.u.l.e.s{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)...im done now.{b-dark}(:::)
+> 
+> {v}(CAFE) {m}(link_light_rail_train_13) {b-dark}(:::)that was the whole thing.{b-dark}(:::)

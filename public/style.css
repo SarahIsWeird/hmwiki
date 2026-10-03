@@ -1,4 +1,5 @@
 @import 'hackmud_colors.css';
+@import 'hm-code.css';
 
 @font-face {
     font-family: 'Fira Code';
@@ -18,7 +19,7 @@ html, body {
 
     font-family: 'Fira Code', Consolas, monospace;
     font-size: 14pt;
-    --bloom-radius: 4px;
+    --bloom-radius: 2px;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
     color: var(--color-default);
     text-shadow: var(--color-default) 0 0 var(--bloom-radius);
 
-    background-color: #101215;
+    background-color: var(--color-background);
 }
 
 a, a:visited {
@@ -40,6 +41,12 @@ a.default-color, a:visited.default-color {
     color: var(--color-default);
     text-shadow: var(--color-default) 0 0 var(--bloom-radius);
     text-decoration: none;
+}
+
+small {
+    font-size: 80%;
+    color: var(--color-0);
+    text-shadow: var(--color-0) 0 0 var(--bloom-radius);
 }
 
 .navbar {
@@ -87,4 +94,18 @@ blockquote p {
 
 hr {
     margin: 2em 0;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 1rem;
 }

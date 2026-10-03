@@ -1,0 +1,53 @@
+@import 'hackmud_colors.css';
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+
+    text-shadow: none;
+}
+
+.hljs * {
+    text-shadow: none;
+}
+
+.hljs, .hljs-subst {
+    color: var(--color-default);
+}
+
+.hljs-keyword, .hljs-literal, .hljs-number {
+    color: var(--color-v);
+}
+
+.hljs-params {
+    color: var(--color-b);
+}
+
+.hljs-built_in, .hljs-type, .hljs-variable .language_ {
+    color: var(--color-f);
+}
+
+.hljs-operator {
+    color: var(--color-a);
+}
+
+.hljs-punctuation {
+    color: var(--color-3);
+}
+
+.hljs-property {
+    color: var(--color-d-dark);
+}
+
+.hljs-regexp, .hljs-string {
+    color: var(--color-l);
+}
+
+.hljs-variable, .hljs-title {
+    color: var(--color-1);
+}
+
+.hljs-comment {
+    color: var(--color-0);
+}

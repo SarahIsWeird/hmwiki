@@ -4,16 +4,27 @@
     "description": "",
     "type": "module",
     "scripts": {
-        "serve": "eleventy --serve",
-        "gen-colors": "node utils/colors.js"
+        "build": "eleventy --config=eleventy.config.ts",
+        "serve": "eleventy --config=eleventy.config.ts --serve",
+        "gen-colors": "node utils/colors.js",
+        "test": "jest"
     },
     "private": true,
     "dependencies": {
         "@11ty/eleventy": "^3.1.6",
+        "highlight.js": "^11.12.0",
         "liquidjs": "^10.29.0",
+        "markdown-it": "^15.0.2",
         "markdown-it-anchor": "^10.0.0",
         "markdown-it-color": "^2.1.1",
         "markdown-it-container": "^4.0.0",
-        "markdown-it-footnote": "^4.0.0"
+        "markdown-it-footnote": "^4.0.0",
+        "markdown-it-highlightjs": "^4.3.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/markdown-it-footnote": "^3.0.4",
+        "jest": "^30.5.2",
+        "ts-jest": "^29.4.14"
     }
 }

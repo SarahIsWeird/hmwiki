@@ -14,6 +14,11 @@ A quirk of all c locks is that {v}(values) are case-insensitive. The [Halperyon 
 is the only other type of lock to share this behavior, though unlike EZ locks, the c locks require
 {n}(keys) to be lowercase, i.e., {n}(c001), {d}(not) {n}(C001).
 
+```hackmud
+>>marks.init
+No :)
+```
+
 <hr>
 
 ## c001
@@ -23,17 +28,19 @@ is the only other type of lock to share this behavior, though unlike EZ locks, t
 
 ### Behavior
 
-Like all locks in the c line, c001 expects one of eight colors to be given as an argument {n}(c001):
-- {d}(red)
-- {f}(orange)
-- {j}(yellow)
-- {l}(lime)
-- {l-dark}(green)
-- {n}(cyan)
-- {p}(blue)
-- {t}(purple)
-
+Like all locks in the c line, c001 expects one of eight colors to be given as an argument {n}(c001).
 Additionally, it expects an argument {n}(color_digit) that contains the amount of letters in the correct color.
+
+| {n}(c001)       | {n}(color_digit) |
+|-----------------|------------------|
+| {d}(red)        | 3                |
+| {f}(orange)     | 6                |
+| {j}(yellow)     | 6                |
+| {l}(lime)       | 4                |
+| {l-dark}(green) | 5                |
+| {n}(cyan)       | 4                |
+| {p}(blue)       | 4                |
+| {t}(purple)     | 6                |
 
 ### Example unlock
 
@@ -77,25 +84,19 @@ Additionally, it expects an argument {n}(color_digit) that contains the amount o
 
 ### Behavior
 
-Like all locks in the c line, c002 expects one of eight colors to be given as an argument {n}(c002):
-- {d}(red)
-- {f}(orange)
-- {j}(yellow)
-- {l}(lime)
-- {l-dark}(green)
-- {n}(cyan)
-- {p}(blue)
-- {t}(purple)
-
+Like all locks in the c line, c002 expects one of eight colors to be given as an argument {n}(c002).
 Additionally, it expects an argument {n}(c002_complement) that contains the complement color of {n}(c002).
-- {d}(red)&ensp;&ensp;&ensp; → {l-dark}(green)
-- {f}(orange) → {n}(cyan)
-- {j}(yellow) → {p}(blue)
-- {l}(lime)&ensp;&ensp; → {t}(purple)
-- {l-dark}(green)&ensp; → {d}(red)
-- {n}(cyan)&ensp;&ensp; → {f}(orange)
-- {p}(blue)&ensp;&ensp; → {j}(yellow)
-- {t}(purple) → {l}(lime)
+
+| {n}(c002)       | {n}(c002_complement) |
+|-----------------|----------------------|
+| {d}(red)        | {l-dark}(green)      |
+| {f}(orange)     | {n}(cyan)            |
+| {j}(yellow)     | {p}(blue)            |
+| {l}(lime)       | {t}(purple)          |
+| {l-dark}(green) | {d}(red)             |
+| {n}(cyan)       | {f}(orange)          |
+| {p}(blue)       | {j}(yellow)          |
+| {t}(purple)     | {l}(lime)            |
 
 ### Example unlock
 
@@ -139,27 +140,20 @@ Additionally, it expects an argument {n}(c002_complement) that contains the comp
 
 ### Behavior
 
-Like all locks in the c line, c003 expects one of eight colors to be given as an argument {n}(c003):
-- {d}(red)
-- {f}(orange)
-- {j}(yellow)
-- {l}(lime)
-- {l-dark}(green)
-- {n}(cyan)
-- {p}(blue)
-- {t}(purple)
-
+Like all locks in the c line, c003 expects one of eight colors to be given as an argument {n}(c003).
 Additionally, it expects two arguments {n}(c003_triad_1) and {n}(c003_triad_2), that are the first and second
 triad colors, respectively. The values have to be provided in the correct order.
 
-- {d}(red)&ensp;&ensp;&ensp; → {n}(cyan), &ensp;&ensp;{l}(lime)
-- {f}(orange) → {p}(blue), &ensp;&ensp;{l-dark}(green)
-- {j}(yellow) → {t}(purple), {n}(cyan)
-- {l}(lime)&ensp;&ensp; → {d}(red), &ensp;&ensp;&ensp;{p}(blue)
-- {l-dark}(green)&ensp; → {f}(orange), {t}(purple)
-- {n}(cyan)&ensp;&ensp; → {j}(yellow), {d}(red)
-- {p}(blue)&ensp;&ensp; → {l}(lime), &ensp;&ensp;{f}(orange)
-- {t}(purple) → {l-dark}(green), &ensp;{j}(yellow)
+| {n}(c003)       | {n}(c003_triad_1) | {n}(c003_triad_2) |
+|-----------------|-------------------|-------------------|
+| {d}(red)        | {n}(cyan)         | {l}(lime)         |
+| {f}(orange)     | {p}(blue)         | {l-dark}(green)   |
+| {j}(yellow)     | {t}(purple)       | {n}(cyan)         |
+| {l}(lime)       | {d}(red)          | {p}(blue)         |
+| {l-dark}(green) | {f}(orange)       | {t}(purple)       |
+| {n}(cyan)       | {j}(yellow)       | {d}(red)          |
+| {p}(blue)       | {l}(lime)         | {f}(orange)       |
+| {t}(purple)     | {l-dark}(green)   | {j}(yellow)       |
 
 ### Example unlock
 

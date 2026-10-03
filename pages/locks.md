@@ -11,5 +11,10 @@ Lock types are categorized into tiers, and like other upgrades, lock upgrades ca
 
 ## Types of locks
 
-- [EZ line](/locks/ez): EZ_21, EZ_35 and EZ_40
-- [c line](/locks/c): c001, c002 and c003
+- [EZ line](/locks/ez) (EZ_21, EZ_35 and EZ_40)
+- [c line](/locks/c) (c001, c002 and c003)
+- [DATA_CHECK](/locks/data_check)
+
+## Useful things
+
+- [Lock sims](/locks/sims)
