@@ -1,6 +1,8 @@
 ---
 layout: "base"
 title: "EZ locks"
+tags:
+  - locks
 ---
 # EZ locks
 

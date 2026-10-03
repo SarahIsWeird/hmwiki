@@ -9,7 +9,7 @@ tags:
 
 <small>
 This article is about the parsing and formatting of hackmud. If you're just looking for what colors are used in-game,
-as well as their hex codes, please check out the article on <a href="/internals/colors">Colors</a>.
+as well as their hex codes, please check out the article on <a>Colors</a> that doesn't yet exist.
 </small>
 
 Text coloring in {hackmud} is largely regex-based. As such, it often does not produce the output you'd expect it to.

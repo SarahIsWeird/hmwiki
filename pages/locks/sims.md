@@ -1,6 +1,9 @@
 ---
 layout: "base"
 title: "Lock sims"
+tags:
+  - locks
+  - player_made
 ---
 # Lock sims
 

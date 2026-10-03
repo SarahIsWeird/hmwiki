@@ -1,6 +1,8 @@
 ---
 layout: "base"
 title: "c locks"
+tags:
+  - locks
 ---
 # c locks
 

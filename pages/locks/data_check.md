@@ -1,6 +1,8 @@
 ---
 layout: "base"
 title: "DATA_CHECK"
+tags:
+  - locks
 ---
 # DATA_CHECK
 
