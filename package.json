@@ -7,7 +7,8 @@
         "build": "eleventy --config=eleventy.config.ts",
         "serve": "eleventy --config=eleventy.config.ts --serve",
         "gen-colors": "node utils/colors.js",
-        "test": "jest"
+        "test": "jest",
+        "build-ghpages": "eleventy --config=eleventy.config.ts --pathprefix=/hmwiki/"
     },
     "private": true,
     "dependencies": {
